@@ -7,7 +7,7 @@ SRCS := $(SRC_DIR)/main.c $(SRC_DIR)/cli.c $(SRC_DIR)/bridge.c
 
 EMFLAGS := -O2 \
   -s EXPORTED_FUNCTIONS='["_main","_app_handle_char","_app_handle_key"]' \
-  -s EXPORTED_RUNTIME_METHODS='["ccall"]' \
+  -s EXPORTED_RUNTIME_METHODS='["ccall","setValue","UTF8ToString"]' \
   -s MODULARIZE=0 \
   -s NO_EXIT_RUNTIME=1 \
   -s ALLOW_MEMORY_GROWTH=1
