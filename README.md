@@ -2,6 +2,8 @@
 
 An interactive, terminal-style portfolio built in pure C, compiled to WebAssembly with Emscripten, and deployed to GitHub Pages.
 
+**Live site:** https://alcherkas.github.io/cweb/
+
 ## Quick start
 
 ```bash
