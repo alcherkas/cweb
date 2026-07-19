@@ -6,7 +6,7 @@ EM_JS(void, br_init, (void), {
         window.cwebCanvas = document.getElementById("cweb-canvas");
         window.cwebCtx = window.cwebCanvas.getContext("2d");
         window.cwebFontSize = 16;
-        window.cwebFontFamily = "'JetBrains Mono', 'Fira Code', monospace";
+        window.cwebFontFamily = "'SF Mono', 'Menlo', 'Monaco', 'Consolas', 'JetBrains Mono', 'Fira Code', monospace";
 
         function resize() {
             const rect = window.cwebCanvas.parentElement.getBoundingClientRect();

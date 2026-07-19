@@ -8,7 +8,7 @@ html, body {
   width: 100%;
   height: 100%;
   background: #050505;
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-family: 'SF Mono', 'Menlo', 'Monaco', 'Consolas', 'JetBrains Mono', 'Fira Code', monospace;
   display: flex;
   align-items: center;
   justify-content: center;

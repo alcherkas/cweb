@@ -5,11 +5,11 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-static int theme_bg(Theme theme) { return theme == THEME_DARK ? 0x0c0c0c : 0xfffdf5; }
-static int theme_fg(Theme theme) { return theme == THEME_DARK ? 0x33ff33 : 0x1a1a1a; }
-static int theme_prompt(Theme theme) { return theme == THEME_DARK ? 0x00ffff : 0x0055aa; }
-static int theme_error(Theme theme) { return theme == THEME_DARK ? 0xff3333 : 0xcc0000; }
-static int theme_dim(Theme theme) { return theme == THEME_DARK ? 0x888888 : 0x555555; }
+static int theme_bg(Theme theme) { return theme == THEME_DARK ? 0x0c0c0c : 0x000000; }
+static int theme_fg(Theme theme) { return theme == THEME_DARK ? 0x33ff33 : 0xe8e8e8; }
+static int theme_prompt(Theme theme) { return theme == THEME_DARK ? 0x00ffff : 0x5c9fff; }
+static int theme_error(Theme theme) { return theme == THEME_DARK ? 0xff3333 : 0xff5555; }
+static int theme_dim(Theme theme) { return theme == THEME_DARK ? 0x888888 : 0x888888; }
 
 static int role_color(ColorRole role, Theme theme) {
     switch (role) {
