@@ -11,9 +11,16 @@ typedef enum {
     THEME_LIGHT
 } Theme;
 
+typedef enum {
+    ROLE_FG,
+    ROLE_PROMPT,
+    ROLE_DIM,
+    ROLE_ERROR
+} ColorRole;
+
 typedef struct {
     char text[CLI_MAX_LINE_LEN];
-    int fg;
+    ColorRole role;
 } Line;
 
 typedef struct {
