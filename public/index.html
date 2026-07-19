@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cweb — C + WASM terminal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="terminal">
+    <div class="terminal-header">
+      <span class="dot red"></span>
+      <span class="dot yellow"></span>
+      <span class="dot green"></span>
+      <span class="title">guest@cweb — ~</span>
+    </div>
+    <div class="terminal-body">
+      <canvas id="cweb-canvas"></canvas>
+    </div>
+    <div class="terminal-footer">
+      <span>Click here and start typing. Try <code>help</code>.</span>
+    </div>
+  </div>
+  <script src="cli.js"></script>
+</body>
+</html>

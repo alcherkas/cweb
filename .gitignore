@@ -1,0 +1,7 @@
+build/
+emsdk/
+*.o
+*.wasm
+*.js
+!public/*.js
+.DS_Store
